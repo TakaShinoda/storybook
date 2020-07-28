@@ -6,7 +6,7 @@ const style = css`
 display: inline-flex;
 justify-content: center;
 align-items: center;
-width: 100%;
+width:90px;
 height: 40px;
 min-width: 2rem;
 vertical-align: middle;
