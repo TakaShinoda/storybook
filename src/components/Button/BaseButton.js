@@ -2,7 +2,7 @@
 import React from 'react' // eslint-disable-line no-unused-vars
 import { jsx, css } from '@emotion/core'
 
-const style = css`
+export const BaseStyle = css`
 display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -22,10 +22,6 @@ transition: none;
 white-space: nowrap;
 `
 
-// export const BaseButton = ({ onClick, text }) => (
-//   <button onClick={onClick}>{text}</button>
-// )
-
-export const BaseButton = ({ onClick }) => (
-  <button onClick={onClick} css={style}>Button</button>
+export const BaseButton = ({ onClick, text }) => (
+  <button onClick={onClick}>{text}</button>
 )
