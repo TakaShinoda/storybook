@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from 'react'
+import React from 'react' // eslint-disable-line no-unused-vars
 import { jsx, css } from '@emotion/core'
 
 const style = css`
@@ -11,6 +11,7 @@ height: 40px;
 min-width: 2rem;
 vertical-align: middle;
 border-radius: 1em;
+border-style: none;
 font-family: inherit;
 font-weight: bold;
 text-align: center;
