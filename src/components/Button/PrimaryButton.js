@@ -6,6 +6,7 @@ import { BaseStyle } from './BaseButton'
 
 const style = css`
 ${BaseStyle}
+background-color: #8ac6d1;
 `
 
 
