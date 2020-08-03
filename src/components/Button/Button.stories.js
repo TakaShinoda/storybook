@@ -1,5 +1,6 @@
 import React from 'react'
 import { BaseButton } from './BaseButton'
+import { PrimaryButton } from './PrimaryButton'
 import { action } from '@storybook/addon-actions'
 
 export default {
@@ -7,7 +8,7 @@ export default {
 }
 
 export const primary = () => (
-  <BaseButton onClick={action('clicked')} text="Button" />
+  <PrimaryButton onClick={action('clicked')} text="Button" />
 )
 
 export const secondary = () => (
